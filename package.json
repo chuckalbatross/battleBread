@@ -11,7 +11,8 @@
   "scripts": {
     "react-dev": "open ./client/index.html && webpack -d --watch",
     "react-doc": "./node_modules/.bin/esdoc && open docs/index.html",
-    "update": "git pull upstream master && npm install"
+    "update": "git pull upstream master && npm install",
+    "start": "nodemon --inspect server/index.js"
   },
   "dependencies": {
     "axios": "^0.16.2",
